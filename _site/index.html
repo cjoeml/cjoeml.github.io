@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+	</head>
+
+  <body>
+    <div class="container">
+<div class="top-menu">
+	
+	<div class="menu-tab2"> 
+		<a href="#" class="gt">> </a><a href="/" id="red">ｓａｎｄｗｉｃｈ</a>
+	</div>
+
+	<div class="menu-tab" id="mt">
+		<a href="#" class="gt" id="gt1">> </a>
+		<a href="/" id="red" onmouseover="showGT('gt1')" onmouseout="hideGT('gt1')">home</a>
+		
+		<a href="#" class="gt" id="gt2">> </a>
+		<a href="/aboutme" id="purple" onmouseover="showGT('gt2')" onmouseout="hideGT('gt2')">about me</a> 
+		
+		<a href="#" class="gt" id="gt3">> </a>
+		<a href="/blog" id="blue" onmouseover="showGT('gt3')" onmouseout="hideGT('gt3')">blog</a>
+		
+		<a href="#" class="gt" id="gt4">> </a>
+		<a target="_blank" href="https://github.com/cjoeml" id="gray" onmouseover="showGT('gt4')" onmouseout="hideGT('gt4')">github</a>
+		
+		<a href="#" class="gt" id="gt5">> </a>
+		<a target="_blank" href="https://open.spotify.com/user/congalinetime" id="green" onmouseover="showGT('gt5')" onmouseout="hideGT('gt5')">spotify</a>
+	</div>
+
+</div>
+</div>
+
+<script>
+function showGT(id) {
+	var gt = document.getElementById(id);
+	gt.style.visibility = "visible";
+	gt.style.opacity = "1";
+}
+
+function hideGT(id) {
+	var gt = document.getElementById(id);
+	gt.style.visibility = "hidden";
+	gt.style.opacity = "0";
+}
+
+</script>
+    <div class="shout"> Web 2.0 sucks. </div>
+  </body>
+</html>

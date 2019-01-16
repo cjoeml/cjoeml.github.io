@@ -1,0 +1,170 @@
+.current {
+  color: green;
+}
+
+nav  {
+	background-color: #1a1a1a;
+	min-height: 15px !important;
+}
+
+body {
+	margin-top: 3%;
+	color: #eee;
+	background-color: #333;
+}
+
+.shout {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 900%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-tab > a {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  margin-right: 5px;
+}
+
+.menu-tab2 > a:hover {
+  background: black;
+}
+
+
+.menu-tab > a:hover {
+  background: black;
+}
+
+.container {
+  min-height: 15px !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  position: absolute;
+  height: 5%;
+  box-shadow: rgba(0,0,0,.6) 0 0 7.5px 2px !important;
+}
+/* The Magic Float Center Code */
+.top-menu {
+min-height: 15px !important;
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+  top: 10%;
+}
+.top-menu > .menu-tab {
+  position: relative;
+  left: 50%;
+  color: white;
+    -webkit-animation-name: flash_border;
+}
+
+.top-menu > .menu-tab2 {
+	font-family: 'Saira Semi Condensed', sans-serif;
+  position: absolute;
+  color: white;
+  right: 50%;
+}
+
+.menu-tab2 > a {
+	position: relative;
+  left: 650%;
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  margin-right: 5px;
+    animation-name: flash_border;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: flash_border;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: flash_border;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+
+
+#red {
+  border-color: #e72d2d;
+}
+
+#blue {
+  border-color: #4165ea;
+}
+
+#gray {
+  border-color: #929292;
+}
+
+#purple {
+  border-color: #c541ea;
+}
+#green {
+  border-color: #2de087;
+}
+
+.gt {
+  visibility: hidden;
+  border: none !important;
+  padding-right: -15px !important;
+  margin-right: -8px !important;
+  transition: 0.50s;
+  font-size: 20px;
+}
+
+.gt:hover {
+  background: none !important;
+}
+
+@keyframes flash_border {
+  0% {
+    border-color: #e72d2d;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: #e72d2d;
+  }
+}
+
+@-webkit-keyframes flash_border {
+  0% {
+    border-color: #e72d2d;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: #e72d2d;
+  }
+}
+
+@-moz-keyframes flash_border {
+  0% {
+    border-color: #e72d2d;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: #e72d2d;
+  }
+}
+
